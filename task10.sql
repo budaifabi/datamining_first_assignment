@@ -1,0 +1,2 @@
+INSERT INTO Customer(FirstName, LastName, Company, Country, City, PostalCode, Address, Email) VALUES('Fábián', 'Budai', 'BGF', 'Hungary', 'Budapest', '1149', 'Buzogány utca 10-12', 'budaifabi@gmail.com');
+select Firstname, Lastname FROM Customer WHERE FirstName = 'Fábián' AND LastName = 'Budai';

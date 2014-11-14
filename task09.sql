@@ -1,0 +1,1 @@
+select SupportRepID, E.FirstName, E.LastName, C.CustomerId, C.FirstName, C.LastName from Customer AS C JOIN Employee AS E ON C.SupportRepID=E.EmployeeID limit 25;

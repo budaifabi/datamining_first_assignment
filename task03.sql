@@ -1,0 +1,1 @@
+select EmployeeId, FirstName, LastName, HireDate from Employee where HireDate BETWEEN "2002-01-01" AND "2004-12-31";

@@ -1,0 +1,10 @@
+EmployeeId                      FirstName                       LastName                        HireDate       
+------------------------------  ------------------------------  ------------------------------  ---------------
+1                               Andrew                          Adams                           2002-08-14 00:0
+2                               Nancy                           Edwards                         2002-05-01 00:0
+3                               Jane                            Peacock                         2002-04-01 00:0
+4                               Margaret                        Park                            2003-05-03 00:0
+5                               Steve                           Johnson                         2003-10-17 00:0
+6                               Michael                         Mitchell                        2003-10-17 00:0
+7                               Robert                          King                            2004-01-02 00:0
+8                               Laura                           Callahan                        2004-03-04 00:0

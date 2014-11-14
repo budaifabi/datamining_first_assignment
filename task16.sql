@@ -1,0 +1,1 @@
+select T.Name, T.Milliseconds, M.Name, I.BillingCountry, I.InvoiceId from Invoice AS I join InvoiceLine AS IL ON I.InvoiceId=IL.InvoiceId join Track AS T ON T.TrackId=IL.TrackId join MediaType AS M ON T.MediaTypeId=T.MediaTypeId where BillingCountry = 'Hungary';

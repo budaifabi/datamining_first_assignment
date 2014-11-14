@@ -1,0 +1,1 @@
+select C.customerId, C.FirstName, C.LastName, C.SupportRepId, E.FirstName, E.LastName from Customer AS C join Employee AS E ON C.SupportRepId=E.EmployeeId where CustomerId IN('1','3','12');

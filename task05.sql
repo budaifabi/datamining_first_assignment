@@ -1,0 +1,1 @@
+select FirstName, LastName, Address, State, City, Country, PostalCode from Customer where Country IN('Hungary','Belgium','Portugal');
