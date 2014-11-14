@@ -1,3 +1,0 @@
-FirstName   LastName    PostalCode
-----------  ----------  ----------
-Fábián    Budai       1149      
