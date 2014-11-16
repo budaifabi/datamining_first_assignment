@@ -1,8 +1,14 @@
-FirstName        LastName    BillingCity  COUNT(I.BillingCity)
----------------  ----------  -----------  --------------------
-Hannah           Schneider   Berlin       14                  
-Emma             Jones       London       14                  
-Dan              Miller      Mountain Vi  14                  
-Camille          Bernard     Paris        14                  
-Helena           Holý       Prague       14                  
-Eduardo          Martins     São Paulo   14                  
+FirstName   LastName    BillingCity
+----------  ----------  -----------
+Niklas      Schröder   Berlin     
+Dominique   Lefebvre    Paris      
+Emma        Jones       London     
+Frank       Harris      Mountain Vi
+Eduardo     Martins     São Paulo 
+Hannah      Schneider   Berlin     
+Phil        Hughes      London     
+Helena      Holý       Prague     
+Alexandre   Rocha       São Paulo 
+František  Wichterlov  Prague     
+Camille     Bernard     Paris      
+Dan         Miller      Mountain Vi

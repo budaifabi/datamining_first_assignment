@@ -1,1 +1,1 @@
-select max(milliseconds), Name, (select A.Title FROM Album AS A Join Track AS T ON A.AlbumID=T.AlbumID) from Track;
+select A.Title, T.Name from Album AS A inner join Track AS T ON A.AlbumId=T.AlbumId where T.Milliseconds = (select MAX(Milliseconds) FROM Track);

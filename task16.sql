@@ -1,1 +1,1 @@
-select T.Name, T.Milliseconds, M.Name, I.BillingCountry, I.InvoiceId from Invoice AS I join InvoiceLine AS IL ON I.InvoiceId=IL.InvoiceId join Track AS T ON T.TrackId=IL.TrackId join MediaType AS M ON T.MediaTypeId=T.MediaTypeId where BillingCountry = 'Hungary';
+select T.Name, T.Milliseconds, M.Name, I.InvoiceId, I.BillingCountry from Invoice AS I inner join InvoiceLine AS IL on IL.InvoiceId = I.InvoiceId inner join Track AS T on T.TrackId = IL.TrackId inner join MediaType AS M on M.MediaTypeId = T.MediaTypeId where I.BillingCountry = "Hungary" ;

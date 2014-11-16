@@ -1,1 +1,1 @@
-select C.FirstName, C.LastName, I.BillingCity, COUNT(I.BillingCity) FROM Customer AS C JOIN Invoice AS I ON C.CustomerID=I.CustomerID GROUP BY I.BillingCity HAVING COUNT(I.BillingCity) > 10;
+SELECT DISTINCT C.FirstName, C.LastName, I.BillingCity FROM Invoice AS I INNER JOIN Customer AS C ON I.CustomerId = C.CustomerId WHERE I.BillingCity IN (SELECT BillingCity FROM Invoice GROUP BY BillingCity HAVING COUNT(BillingCity) > 10);
